@@ -14,6 +14,8 @@ import CheckTable from "./components/CheckTable";
 import DailyTraffic from "./components/DailyTraffic";
 import YourPie from "./components/YourPie";
 import ComplexTable from "./components/ComplexTable";
+import Task from "./components/Task";
+import MiniCalendar from "../../components/calendar/MiniCalendar";
 
 const Home = () => {
   return (
@@ -95,6 +97,8 @@ const Home = () => {
       <SimpleGrid columns={{ base: 1, md: 2 }} spacing="20px" w={"100%"}>
         <ComplexTable />
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing="20px" w={"100%"}>
+          <Task/>
+          <MiniCalendar/>
         </SimpleGrid>
       </SimpleGrid>
     </VStack>

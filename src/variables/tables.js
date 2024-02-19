@@ -38,31 +38,27 @@ export const tableDataCheck = [
 
 export const ComplexDataCheck = [
   {
-    checked: false,
     name: "Horizon UI PRO",
     status: "Approved",
     date: "18 Apr 2022",
-    progress: "80%",
+    progress: 80, // progress 값은 string이 아닌 number타입으로 넣어야 반영됨 ('' 없이 숫자로 입력)
   },
   {
-    checked: false,
     name: "Horizon UI Free",
     status: "Disable",
     date: "18 Apr 2022",
-    progress: "20%",
+    progress: 20,
   },
   {
-    checked: false,
     name: "Marketplace",
     status: "Error",
     date: "20 May 2021",
-    progress: "50%",
+    progress: 90,
   },
   {
-    checked: false,
     name: "Weekly Updates",
     status: "Approved",
     date: "12 Jul 2021",
-    progress: "30%",
+    progress: 50,
   },
 ];

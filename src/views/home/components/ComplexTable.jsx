@@ -35,9 +35,6 @@ const ComplexTable = () => {
             {/* element.map() */}
             {ComplexDataCheck.map((row, index) => (
               <Tr key={index}>
-                <Td>
-                  <Checkbox isChecked={row.checked} />
-                </Td>
                 <Td>{row.name}</Td>
                 <Td>{row.status}</Td>
                 <Td>{row.date}</Td>
