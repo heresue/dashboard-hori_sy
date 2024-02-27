@@ -12,7 +12,7 @@ const Banner = () => {
   return (
     <SwiperStyle pagination={true} modules={[Pagination]} className="mySwiper">
       <SwiperSlide>
-        <Box className="slide-box" bg={"primary"}>
+        <Box className="slide-box">
           <Heading
             className="slide-title"
             color={"white"}
@@ -66,6 +66,7 @@ const SwiperStyle = styled(Swiper)`
   display: flex;
   border-radius: 30px;
   .slide-box {
+    background: url(${require("../../../assets/images/NftBanner.png")});
     padding: 56px 0;
     padding-inline: 64px;
   }

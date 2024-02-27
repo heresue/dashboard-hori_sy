@@ -1,25 +1,23 @@
-import { Box, Flex, Heading } from "@chakra-ui/react";
+import { Flex, Heading } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
-
-import styled from "styled-components";
 
 const SecTitle = () => {
   return (
     <Flex
-      alignItems={"center"}
-      justifyContent={"space-between"}
-      mt={"45px"}
-      marginBottom={"20px"}
+      flexDir={{ base: "column", md: "row" }}
+      justifyContent={{ base: "none", md: "space-between" }}
+      margin={"45px 0 20px"}
     >
       <Heading fontSize={"24px"} marginInlineStart={"24px"}>
         Trending NFTs
       </Heading>
       <Flex
-        fontSize={"16px"}
+        fontSize="16px"
+        color="primary"
         alignItems={"center"}
         marginInline={"24px 20px"}
+        marginTop={{ base: "20px", md: "0" }}
         gap={"44px"}
-        color={$primary}
       >
         <Link href="">Art</Link>
         <Link href="">Music</Link>

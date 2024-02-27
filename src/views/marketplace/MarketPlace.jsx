@@ -1,6 +1,6 @@
 import { Box, Flex, Grid } from "@chakra-ui/react";
 import Banner from "./components/Banner";
-import Trending from "./components/Trending";
+import Trending from "./components/NFTcard";
 import SecTitle from "./components/SecTitle";
 
 const MarketPlace = () => {
@@ -16,7 +16,17 @@ const MarketPlace = () => {
         </Box>
         <Box w="100%" h="100%">
           <SecTitle />
-          <Trending />
+          <Flex
+            className="boxA"
+            w="100%"
+            gap={"20px"}
+            flexDir={{ base: "column", md: "row" }}
+            textAlign={"center"}
+          >
+            <Trending w="100%" />
+            <Trending w="100%" />
+            <Trending w="100%" />
+          </Flex>
         </Box>
         <Box w="100%" h="10" bg="blue.300"></Box>
       </Flex>
