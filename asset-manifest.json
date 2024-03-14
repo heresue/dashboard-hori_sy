@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/dashboard-hori_sy/static/css/main.e5eb6f29.css",
+    "main.js": "/dashboard-hori_sy/static/js/main.f8e552e7.js",
+    "static/media/NftBanner.png": "/dashboard-hori_sy/static/media/NftBanner.87062366f75bedd52bd2.png",
+    "index.html": "/dashboard-hori_sy/index.html",
+    "main.e5eb6f29.css.map": "/dashboard-hori_sy/static/css/main.e5eb6f29.css.map",
+    "main.f8e552e7.js.map": "/dashboard-hori_sy/static/js/main.f8e552e7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5eb6f29.css",
+    "static/js/main.f8e552e7.js"
+  ]
+}
