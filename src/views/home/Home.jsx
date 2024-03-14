@@ -49,7 +49,7 @@ const Home = () => {
   }, [color]);
 
   const toggleColor = () => {
-    setColor(color === "lightblue" ? "yellow" : "lightblue");
+    setColor(color === "lightblue" ? "lightpink" : "lightblue");
   };
   // --------------------------------------------------------------
 
